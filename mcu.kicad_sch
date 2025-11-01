@@ -2716,6 +2716,12 @@
 		(uuid "9c6b2fc2-7f77-4fb5-93fe-46514fe7668d")
 	)
 	(junction
+		(at 64.77 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9950f4b-8ab2-4dff-a9a6-474b3521d7b7")
+	)
+	(junction
 		(at 209.55 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2883,6 +2889,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 180.34) (xy 62.23 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a9cb3b-967a-47da-a368-a63ab2b107be")
+	)
+	(wire
+		(pts
 			(xy 76.2 81.28) (xy 78.74 81.28)
 		)
 		(stroke
@@ -3033,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 168.91) (xy 64.77 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ef9658-f00c-47de-be92-9012284f65fd")
+	)
+	(wire
+		(pts
 			(xy 43.18 163.83) (xy 43.18 167.64)
 		)
 		(stroke
@@ -3060,6 +3086,16 @@
 			(type default)
 		)
 		(uuid "3cf782ec-a5d0-4976-b5fc-ac71c16c2b59")
+	)
+	(wire
+		(pts
+			(xy 64.77 179.07) (xy 64.77 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8a58c9-51ea-4d6b-9dab-e72fde103eca")
 	)
 	(wire
 		(pts
@@ -3363,6 +3399,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 179.07) (xy 80.01 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db5488b-fbd1-4a31-95d1-2772cceffcb4")
+	)
+	(wire
+		(pts
 			(xy 218.44 81.28) (xy 223.52 81.28)
 		)
 		(stroke
@@ -3593,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 168.91) (xy 64.77 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac55f724-a473-49da-b972-aab12b74b837")
+	)
+	(wire
+		(pts
 			(xy 231.14 95.25) (xy 231.14 97.79)
 		)
 		(stroke
@@ -3650,6 +3706,26 @@
 			(type default)
 		)
 		(uuid "b83c6fbe-1dfc-43bb-a344-e0ecc8e95131")
+	)
+	(wire
+		(pts
+			(xy 80.01 168.91) (xy 64.77 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6e0428-fd71-4ead-aa5a-c93bccbdaacc")
+	)
+	(wire
+		(pts
+			(xy 80.01 181.61) (xy 77.47 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6dba52-3115-4810-80dd-1eb6eaf989e3")
 	)
 	(wire
 		(pts
@@ -3843,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 171.45) (xy 80.01 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e891d3c8-8fb1-442a-bd5c-4521ed9a5fb0")
+	)
+	(wire
+		(pts
 			(xy 209.55 106.68) (xy 212.09 106.68)
 		)
 		(stroke
@@ -3910,6 +3996,16 @@
 			(type default)
 		)
 		(uuid "fa8f3fdb-139d-467d-bfc3-27525f0d00e5")
+	)
+	(label "I2CB_SCL"
+		(at 77.47 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23615738-6545-425f-b286-68a47af8a1a5")
 	)
 	(label "I2CB_SCL"
 		(at 63.5 156.21 180)
@@ -4010,6 +4106,16 @@
 			(justify right bottom)
 		)
 		(uuid "8f8f24d6-0525-4ec2-9ef9-c05e01463808")
+	)
+	(label "I2CB_SDA"
+		(at 62.23 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fb03d85-fde0-4e62-afff-53f040491536")
 	)
 	(label "MCU_GPIO37{slash}TDO"
 		(at 81.28 151.13 180)
@@ -5117,6 +5223,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 60.96 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d7617b7-56d9-4f00-ae0e-e99cb67fc1ab")
+		(property "Reference" "#PWR056"
+			(at 64.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 57.15 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 60.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ed7079c-a42b-4e7e-b2bf-1dc8cc823fd3")
+		)
+		(instances
+			(project "TampanMD"
+				(path "/c067c62c-9404-4765-bd19-22c1fc773b99/4b4bcaa2-25e0-4eba-81ba-0770211e8f06"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 81.28 163.83 270)
 		(unit 1)
@@ -5950,6 +6123,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 64.77 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672517ab-cbd4-4813-8ef6-2eeaef064e0c")
+		(property "Reference" "R34"
+			(at 67.31 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 67.31 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 65.786 175.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 64.77 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C98220"
+			(at 64.77 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f29e55d0-2916-47e4-926c-1710b25a8195")
+		)
+		(pin "2"
+			(uuid "c5e4863b-b2ab-4a64-8e37-ad66896b4d2f")
+		)
+		(instances
+			(project "TampanMD"
+				(path "/c067c62c-9404-4765-bd19-22c1fc773b99/4b4bcaa2-25e0-4eba-81ba-0770211e8f06"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 43.18 179.07 0)
 		(unit 1)
@@ -6237,6 +6489,85 @@
 			(project ""
 				(path "/c067c62c-9404-4765-bd19-22c1fc773b99/4b4bcaa2-25e0-4eba-81ba-0770211e8f06"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88272293-8e1c-443d-9f63-66fbdfbce1ab")
+		(property "Reference" "R35"
+			(at 82.55 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 82.55 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 81.026 175.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C98220"
+			(at 80.01 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa75ac0-0c9b-49e8-a5a1-15d3bbee3ed7")
+		)
+		(pin "2"
+			(uuid "d57b4239-44de-4069-9f3a-548fcc148174")
+		)
+		(instances
+			(project "TampanMD"
+				(path "/c067c62c-9404-4765-bd19-22c1fc773b99/4b4bcaa2-25e0-4eba-81ba-0770211e8f06"
+					(reference "R35")
 					(unit 1)
 				)
 			)

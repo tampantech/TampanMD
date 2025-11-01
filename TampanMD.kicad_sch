@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c067c62c-9404-4765-bd19-22c1fc773b99")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 52.07 35.56)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b4bcaa2-25e0-4eba-81ba-0770211e8f06")
+		(property "Sheetname" "MCU"
+			(at 52.07 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 52.07 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TampanMD"
+				(path "/c067c62c-9404-4765-bd19-22c1fc773b99"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 36.83)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cacea44-698e-4d4c-b203-e6612eede9db")
+		(property "Sheetname" "gateDriver"
+			(at 115.57 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gateDriver.kicad_sch"
+			(at 115.57 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TampanMD"
+				(path "/c067c62c-9404-4765-bd19-22c1fc773b99"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 39.37)
+		(size 41.91 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1000548-b09f-4c0f-867e-549e8721a101")
+		(property "Sheetname" "PMIC"
+			(at 175.26 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC.kicad_sch"
+			(at 175.26 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TampanMD"
+				(path "/c067c62c-9404-4765-bd19-22c1fc773b99"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

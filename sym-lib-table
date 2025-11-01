@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TMS320F2800132rhb")(type "KiCad")(uri "${KIPRJMOD}/library/schematics/TMS320F2800132rhb.kicad_sym")(options "")(descr ""))
+  (lib (name "droneUltimate")(type "KiCad")(uri "${KIPRJMOD}/library/schematics/droneUltimate.kicad_sym")(options "")(descr ""))
+)
